@@ -1,3 +1,5 @@
 from django.contrib import admin
+from . models import About, Guide
 
-# Register your models here.
+admin.site.register(About)
+admin.site.register(Guide)
